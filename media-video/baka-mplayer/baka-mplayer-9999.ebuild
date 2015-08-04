@@ -31,7 +31,7 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 src_prepare() {
-	/usr/lib64/qt5/bin/qmake REFIX="${D}/usr src/Baka-MPlayer.pro"
+	/usr/lib64/qt5/bin/qmake REFIX="${D}/usr" src/Baka-MPlayer.pro
 }
 
 src_install() {
